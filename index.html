@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
+    <title>Super Mario Bros - O Filme</title>
 </head>
 <body>
 
-    <div>
-        <video class="video" autoplay loop src="src/video/video-mario.mp4"></video>
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="src/video/video-mario.mp4" type="video/mp4"></video>
     </div>
 
     <header class="cabecalho">
@@ -25,11 +32,11 @@
     </header>
     <main class="container">
         <div class="informacoes">
-            <img src="src/imagens/titulo.png" alt="imagem do título do filme">
-            <p></p>
-            <button>Veja o trailer</button>
+            <img class="titulo" src="src/imagens/titulo.png" alt="imagem do título do filme">
+            <p>Mário é um encanador junto com seu irmão Luigi. Um dia, eles vão parar no reino dos cogumelos, governado pela Princesa Peach, </p>
+            <button class="otao-trailer" >Veja o trailer</button>
         </div>
-        <img class="mario" src="" alt="">
+        <img class="mario" src="src/imagens/super-mario-chars.png" alt="">
     </main>
 </body>
 </html>
