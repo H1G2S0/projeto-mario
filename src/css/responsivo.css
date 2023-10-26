@@ -4,9 +4,9 @@
         background-color: #f44336;
     }
     
-    .fundo-video {
+    /*.fundo-video {
         display: none;
-    }
+    }*/
     
     .container {
         flex-wrap: wrap;
